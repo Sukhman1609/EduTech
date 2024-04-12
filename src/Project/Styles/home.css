@@ -399,8 +399,11 @@ body{
 .hoveredItemDetails:hover {
   display: none;
 }
+.hoveredItemDetails{
+  visibility: hidden;
+}
 .hoveredItemDetails1 {
-  display: none;
+  visibility: hidden;
 }
 .HomeSection4{
   position: relative;
