@@ -23,7 +23,7 @@ const Home = () => {
     if (!token) {
       setShowLoginPopup(true);
       alert('Please Login First to continue with purchase!!!')    
-      navigate('/login')
+      navigate('/')
     return;
     } 
     else {
@@ -31,6 +31,9 @@ const Home = () => {
      
     }
   };
+
+
+  
 
   // const handleBuyNow = () => {
   //   addToCart(item);
@@ -288,18 +291,6 @@ Phillip W</h3>
           
         </div>
         
-
-
-
-
-
-
-
-
-
-
-
-
 <div className='ff'>
         <Footer /></div>
     </div>
