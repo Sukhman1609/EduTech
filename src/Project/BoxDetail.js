@@ -45,7 +45,9 @@ if(showLoginPopup){
     if (!token) {
       setShowLoginPopup(true);
       alert('Please Login First to continue with purchase!!!')    
-      navigate('/');
+      navigate('/cart');
+      addToCart(item);
+      setOrderPlaced(true);
     return;
     } 
     else {
